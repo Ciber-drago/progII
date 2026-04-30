@@ -17,7 +17,5 @@ divisiones = (
 for d in divisiones:
     print(d)
 
-try:
-    divisiones[0] = "Otra provincia"
-except:
-    print("No se puede modificar la tupla")
+# Intento de modificar (esto falla)
+divisiones[0] = "Otra provincia"
