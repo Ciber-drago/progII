@@ -7,6 +7,7 @@
 #entra el try/except. Y para que la salida se vea bien, muestro el resultado redondeado a 2 decimales
 # con :.2f.
 # Por último lo meto en una función para que el código quede ordenado y se pueda reutilizar fácil.
+#7. Programa completo:
 def pulgadas_a_metros(pulgadas):
     return pulgadas * 0.0254
 
